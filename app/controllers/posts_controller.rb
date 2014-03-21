@@ -20,8 +20,6 @@ class PostsController < ApplicationController
   def show
   @post = Post.find(params[:id])
   end
-   
-  http_basic_authenticate_with name: "EpicGamexz", password: "5535048123", except: [:index, :show]
 
   def index
   @posts = Post.all
