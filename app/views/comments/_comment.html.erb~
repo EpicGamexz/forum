@@ -13,5 +13,5 @@
 <p>
   <%= link_to 'Destroy Comment', [comment.post, comment],
                method: :delete,
-               data: { confirm: 'Are you sure?' } %>
+               data: { confirm: 'Are you very sure you want delete this comment? ' } %>
 </p>
